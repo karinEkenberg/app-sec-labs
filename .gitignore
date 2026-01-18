@@ -1,0 +1,49 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE & Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs
+*.njsproj
+*.sln.docstates
+
+# Kali / Linux History (Important security practice)
+.bash_history
+.zsh_history
+.lesshst
+
+# Tool Specific Outputs
+# Burp Suite
+*.burp
+burp-project-file*
+
+# SQLMap
+/.sqlmap/
+/output/
+
+# Hydra
+*.restore
+
+# Sensitive files / Secrets
+.env
+*.pem
+*.key
+id_rsa
+config.js
+appsettings.json
+
+# Build files (If you analyze .NET/Node code locally)
+bin/
+obj/
+node_modules/
+dist/
+build/
+
+# Miscellaneous
+*.log
+*.tmp
